@@ -1,5 +1,5 @@
-import baseUrl from "./apiConfig.js";
+import baseUrl from './apiConfig.js'
 
-export const getGithubRepo =  async () => {
-    return baseUrl.get('/users/ejaeja12/repos')
+export const getGithubRepo = async () => {
+  return baseUrl.get('/users/ejaeja12/repos')
 }

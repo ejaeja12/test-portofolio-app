@@ -5,11 +5,11 @@ import App from './App.vue'
 import { router } from './router'
 
 // components
-import Header from '@/UI/components/header/Header.vue'
+import Header from '@/UI/containers/header/Header.vue'
 const app = createApp(App)
 
 app.use(router)
 
-app.component('Header', Header)
+//app.component('Header', Header)
 
 app.mount('#app')
